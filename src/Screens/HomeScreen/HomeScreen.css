@@ -102,7 +102,7 @@
 }
 
 .left-grid > div:hover {
-    margin-left: 7rem;
+    margin-left: 3rem;
     -webkit-transform: skewX(-13deg);
     -moz-transform: skewX(-13deg);
     -o-transform: skewX(-13deg);
