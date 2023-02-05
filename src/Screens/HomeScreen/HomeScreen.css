@@ -29,11 +29,23 @@
     height: 100vh;
     color: white;
     display: grid;
-    background-color: rgb(23, 23, 23);
+    background-color: #171717;
 }
 
 .animate-in {
     animation: 0.6s cubic-bezier(0.69, 0.02, 0.24, 0.96) left-in;
+}
+
+.animate-out {
+  animation: 0.6s cubic-bezier(0.69, 0.02, 0.24, 0.96) left-out forward;
+}
+@keyframes left-out {
+  0% {
+  transform: translateX(0);
+}
+100% {
+  transform: translateX(-100%);
+}
 }
 
 @keyframes left-in {
@@ -139,10 +151,10 @@
 
 .text-details-container > div > h1 {
     color: rgb(212, 212, 212);
-    font-family: 'Montserrat', sans-serif;
+    font-family: Montserrat;
     font-weight: 600;
-    font-size: 2.5vw;
-    padding-bottom: 1rem;
+    font-size: 2.4vw;
+    padding: 1rem 0 1rem 0;
 }
 
 .text-details-container > div > h3 {
@@ -151,7 +163,7 @@
     font-size: 1.4vw;
     font-family: 'Montserrat', sans-serif;
     font-weight: 300;
-    padding-bottom: 0.5rem;
+    padding-bottom: 1rem;
 }
 
 .details-html {

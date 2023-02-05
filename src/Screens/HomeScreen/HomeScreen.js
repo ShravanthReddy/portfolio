@@ -1,21 +1,24 @@
 import './HomeScreen.css'
 import './HomeScreenResponsive.css'
-import Particles from 'react-tsparticles';
-import particlesConfig from '../../Config/particlesConfig';
+import { useNavigate } from 'react-router-dom';
 
 function HomeScreen() {
-
+    const navigate = useNavigate();
+    function handleClick(id) {
+        if (id === 1) {
+            navigate("/about")
+        } 
+    }
   return (
     <div className='div-main-container'>
-        <div className='div-secondary-container animate-in'>
+        <div className="div-secondary-container animate-in">
             <div className='top-container'>
                 <div className='top-container-line'><span className='programming-syntax'>function portfolio()<br/>&nbsp;&nbsp;&nbsp;return (</span></div>
-                <span className='programming-syntax color-span'>background-color:&nbsp;#389838</span>
             </div>    
             <div className='bottom-container'>
                 <div className='left-grid'>
                     <div>
-                        <span className='focus-in-expand' ><span className='programming-syntax'>&lt;&nbsp;</span>about<span className='programming-syntax'>&nbsp;&nbsp;/&gt;</span></span>
+                        <span onClick={() => handleClick(1)} className='focus-in-expand' ><span className='programming-syntax'>&lt;&nbsp;</span>about<span className='programming-syntax'>&nbsp;&nbsp;/&gt;</span></span>
                     </div>
                     <div>
                         <span className='focus-in-expand'><span className='programming-syntax'>&lt;&nbsp;</span>projects<span className='programming-syntax'>&nbsp;&nbsp;/&gt;</span></span>
@@ -33,7 +36,7 @@ function HomeScreen() {
                             </div>
                             <div>
                                 <h1>Hi. I'm Shravanth Reddy!</h1>
-                                <h3>A Full-Stack Web and Mobile Application Developer</h3>
+                                <h3>A Front-end Web and Mobile Application Developer</h3>
                             </div>
                             <div>
                                 <span className='programming-syntax'>&#125;&nbsp;&nbsp;/&gt;</span>
@@ -43,7 +46,7 @@ function HomeScreen() {
                 </div>
             </div>
         </div>
-        <div className='nav-bar animate-right'>
+        <nav className='nav-bar animate-right'>
             <div className='nav-bar-items animate-down'>
                 <a href="https://www.linkedin.com/in/shravanth-reddy-reddy/" className='linkedin-icon'>
                     <svg href='www.google.com' xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-linkedin" viewBox="0 0 16 16">
@@ -64,7 +67,7 @@ function HomeScreen() {
                     <span className='github-text'>GITHUB</span>
                 </a>
             </div>
-        </div>
+        </nav>
     </div>
   )
 }
