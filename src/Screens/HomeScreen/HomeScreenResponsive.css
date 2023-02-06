@@ -40,10 +40,22 @@ and (max-width : 590px) {
 
     .right-grid-content {
         padding: 4rem;
+        align-items: center;
     }
     /* .text-details-container > div > h1 {
         font-size: 5vw;
     } */
+
+    .left-grid {
+        justify-content: center;
+        align-items: center;
+    }
+
+    .left-grid > div {
+        width: 60%;
+    }
+
+
 
 }
 
@@ -54,11 +66,15 @@ and (max-width : 669px) {
     }
 
     .text-details-container > div > h1 {
-        font-size: 4.8vw;
+        font-size: 5.2vw;
+    }
+
+    .text-details-container {
+        width: 98%;
     }
 
     .text-details-container > div > h3 {
-        font-size: 3vw;
+        font-size: 3.8vw;
     }
 
     .programming-syntax {
