@@ -2,7 +2,7 @@
 
 Personal portfolio is a great way to showcase your skills to potential employers. Explore some of the best work I did in variety of fields. 
 
-<a href="shravanthreddy.me">
+<a href="https://shravanthreddy.me">
     <img alt="Portfolio site link"
         height="80"
         src="/Readme/shravanth-badge.png" />
