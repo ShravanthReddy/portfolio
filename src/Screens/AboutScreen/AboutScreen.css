@@ -187,3 +187,22 @@
     cursor: pointer;
     color: rgb(155, 155, 155);
 }
+
+.resume-button {
+  margin-top: 2rem;
+  font-family: Dubiel;
+  font-size: 1.5rem;
+  font-weight: 500;
+  text-decoration: none;
+  background-color: #DDDBCB;
+  color: black;
+  padding: 0.8rem 2.5rem;
+  border-radius: 2rem;
+  transition: all 0.2s ease-in;
+  margin-bottom: 1rem;
+}
+
+.resume-button:hover {
+  padding: 0.8rem 4rem;
+}
+
