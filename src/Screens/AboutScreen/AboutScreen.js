@@ -4,7 +4,7 @@ import './AboutScreenResponsive.css'
 import { useNavigate } from 'react-router-dom';
 
 function AboutScreen() {
-    const description = ["Welcome to my portfolio! A software developer and designer with a deep passion for solving problems and using technology to make a positive impact. \n\nWith a focus on front-end web development and Android mobile application development, I have a desire to create visually appealing and user-friendly digital experiences. ", "\n\"Design is not just what it looks like and feels like. Design is how it works.\" - Steve Jobs", "\nI approach real-world problems with a solutions-focused mindset and strive to find the perfect balance between functionality and design in every project I work on. As someone who has always been drawn to the world of coding and programming, I am constantly seeking new opportunities to learn and grow as a developer. Whether I am working on a project for a client or just tinkering with new technologies on my own, I am always eager to dive into the next challenge and explore the endless possibilities of what can be built with code.", "\nWhether you're looking to hire a developer or just want to learn more about my work, I hope my portfolio provides a glimpse into my passion for solving problems and using technology to make a positive impact.", "\nLet's build something amazing together!"]
+    const description = ["Welcome to my portfolio! A software developer and designer with a deep passion for solving problems and using technology to make a positive impact. \n\nWith a focus on front-end web development and Android mobile application development, I have a desire to create visually appealing and user-friendly digital experiences. ", "\n\"Design is not just what it looks like and feels like. Design is how it works.\" - Steve Jobs", "\nThe above quote speaks to my approach in every project I take on. I bring a solutions-focused mindset to real-world problems, striving to find the ideal balance between functionality and design in everything I create. As someone who has always been drawn to the world of coding and programming, I am constantly seeking new opportunities to learn and grow as a developer. Whether I am working on a project for a client or just tinkering with new technologies on my own, I am always eager to dive into the next challenge and explore the endless possibilities of what can be built with code.", "\nWhether you're looking to hire a developer or just want to learn more about my work, I hope my portfolio provides a glimpse into my passion for solving problems and using technology to make a positive impact.", "\nLet's build something amazing together!"]
     const navigate = useNavigate();
     const descriptionComponent = description.map ( data => {
         return (<p>{data}</p>)
@@ -26,10 +26,10 @@ function AboutScreen() {
                 <span className='main-nav animate-about-nav'>About</span>
             </div>
             <div className='nav-bar-div'>
-                <span className='text-focus-in-about'>work</span>
+                <span className='text-focus-in-about'>projects</span>
             </div>
         </nav>
-        <main className='about-secondary-container animate-in-up'>
+        <main className='about-secondary-container project-secondary-container animate-in-up'>
             <header className='header-about'>
                 <div>
                     <span onClick={() => onClickHandle(1)} className='programming-syntax hover-properties'>function about()<br/>&nbsp;&nbsp;&nbsp;return (</span>

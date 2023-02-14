@@ -1,6 +1,7 @@
 import './App.css';
 import HomeScreen from './Screens/HomeScreen/HomeScreen';
 import AboutScreen from './Screens/AboutScreen/AboutScreen';
+import ProjectsScreen from './Screens/ProjectsScreen/ProjectsScreen';
 
 import {
   createBrowserRouter,
@@ -16,6 +17,10 @@ function App() {
     {
       path: "/about",
       element: <AboutScreen />,
+    },
+    {
+      path: "/projects",
+      element: <ProjectsScreen />,
     }
   ]);
 

@@ -5,10 +5,15 @@ import { useNavigate } from 'react-router-dom';
 function HomeScreen() {
     const navigate = useNavigate();
     function handleClick(id) {
+        console.log("In click")
         if (id === 1) {
             navigate("/about")
-        } 
+        } else if (id === 2) {
+            console.log("In projects")
+            navigate("/projects")
+        }
     }
+
   return (
     <div className='div-main-container'>
         <div className="div-secondary-container animate-in">
@@ -21,7 +26,7 @@ function HomeScreen() {
                         <span onClick={() => handleClick(1)} className='focus-in-expand' ><span className='programming-syntax'>&lt;&nbsp;</span>about<span className='programming-syntax'>&nbsp;&nbsp;/&gt;</span></span>
                     </div>
                     <div>
-                        <span className='focus-in-expand'><span className='programming-syntax'>&lt;&nbsp;</span>projects<span className='programming-syntax'>&nbsp;&nbsp;/&gt;</span></span>
+                        <span onClick={() => handleClick(2)} className='focus-in-expand'><span className='programming-syntax'>&lt;&nbsp;</span>projects<span className='programming-syntax'>&nbsp;&nbsp;/&gt;</span></span>
                     </div>
                     <div>
                         <span className='focus-in-expand'><span className='programming-syntax'>&lt;&nbsp;</span>contact<span className='programming-syntax'>&nbsp;&nbsp;/&gt;</span></span>

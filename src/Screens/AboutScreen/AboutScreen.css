@@ -44,7 +44,7 @@
     font-size: 10rem;
     display: block;
     padding: 0 2rem 0 2rem;
-    transform: translateY(150%);
+    transform: translateY(250%);
 }
 
 .about-nav-bar > div > span {
@@ -63,7 +63,7 @@
 
 @keyframes about-right-in {
   0% {
-  transform: translateY(150%);
+  transform: translateY(250%);
 }
 100% {
   transform: translateY(0);
@@ -177,7 +177,7 @@
 }
 
 .div-description > p:nth-child(2), p:nth-child(5) {
-    font-family: Dubiel;
+    font-family: DubielPlain;
     font-size: 3rem;
     font-weight: 500;
     line-height: 3rem;
