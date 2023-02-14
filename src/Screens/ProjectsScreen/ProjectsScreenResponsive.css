@@ -14,4 +14,8 @@ and (max-width : 650px) {
         font-size: 3.5rem;
     }
 
+    .projects-list-card > p {
+        max-width: 100%;
+    }
+
 }
