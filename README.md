@@ -27,5 +27,5 @@ Personal portfolio is a great way to showcase your skills to potential employers
 3. Now run `npm start` to run the website in your local server
 
 Runs the app in the development mode.\
-Open [http://localhost:3000] (http://localhost:3000) to view it in the browser.
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 The page will reload if you make edits and save it.
