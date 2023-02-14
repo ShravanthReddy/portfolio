@@ -13,7 +13,7 @@ const projectsData = [
     },
     {
         id: 3,
-        title: "bookmyshow Bot",
+        title: "bookmyshow bot",
         description: "a telegram and Python-powered solution that checks the availability of movie tickets",
         link: "https://github.com/ShravanthReddy/Bookmyshow-bot"
     },
