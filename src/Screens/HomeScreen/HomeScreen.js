@@ -5,12 +5,12 @@ import { useNavigate } from 'react-router-dom';
 function HomeScreen() {
     const navigate = useNavigate();
     function handleClick(id) {
-        console.log("In click")
         if (id === 1) {
             navigate("/about")
         } else if (id === 2) {
-            console.log("In projects")
             navigate("/projects")
+        } else if (id === 3) {
+            navigate("/contact")
         }
     }
 
@@ -29,7 +29,7 @@ function HomeScreen() {
                         <span onClick={() => handleClick(2)} className='focus-in-expand'><span className='programming-syntax'>&lt;&nbsp;</span>projects<span className='programming-syntax'>&nbsp;&nbsp;/&gt;</span></span>
                     </div>
                     <div>
-                        <span className='focus-in-expand'><span className='programming-syntax'>&lt;&nbsp;</span>contact<span className='programming-syntax'>&nbsp;&nbsp;/&gt;</span></span>
+                        <span onClick={() => handleClick(3)} className='focus-in-expand'><span className='programming-syntax'>&lt;&nbsp;</span>contact<span className='programming-syntax'>&nbsp;&nbsp;/&gt;</span></span>
                     </div>
                     <p className='programming-syntax'>)&nbsp;&nbsp;&copy;Shravanth Reddy</p>
                 </div>

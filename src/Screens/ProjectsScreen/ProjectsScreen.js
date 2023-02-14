@@ -17,6 +17,10 @@ function ProjectsScreen() {
     function onClickHandle(id) {
         if (id === 1) {
             navigate("/")
+        } else if (id === 2) {
+            navigate("/about")
+        } else if (id === 3) {
+            navigate("/contact")
         }
     }
 
@@ -24,13 +28,13 @@ function ProjectsScreen() {
         <div className='project-main-container'>
             <nav className='about-nav-bar'>
                 <div className='nav-bar-div'>
-                    <span className='text-focus-in-about'>about</span>
+                    <span onClick={() => onClickHandle(2)} className='text-focus-in-about'>about</span>
                 </div>
                 <div>
                     <span className='main-nav main-nav-projects animate-about-nav'>Projects</span>
                 </div>
                 <div className='nav-bar-div'>
-                    <span className='text-focus-in-about'>contact</span>
+                    <span onClick={() => onClickHandle(3)} className='text-focus-in-about'>contact</span>
                 </div>
             </nav>
             

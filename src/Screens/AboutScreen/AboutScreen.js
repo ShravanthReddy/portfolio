@@ -13,6 +13,10 @@ function AboutScreen() {
     function onClickHandle(id) {
         if (id === 1) {
             navigate("/")
+        } else if (id === 2) {
+            navigate("/contact")
+        } else if (id === 3) {
+            navigate("/projects")
         }
     }
 
@@ -20,16 +24,16 @@ function AboutScreen() {
     <div className='about-main-container'>
         <nav className='about-nav-bar'>
             <div className='nav-bar-div'>
-                <span className='text-focus-in-about'>contact</span>
+                <span onClick={() => onClickHandle(2)} className='text-focus-in-about'>contact</span>
             </div>
             <div>
                 <span className='main-nav animate-about-nav'>About</span>
             </div>
             <div className='nav-bar-div'>
-                <span className='text-focus-in-about'>projects</span>
+                <span onClick={() => onClickHandle(3)} className='text-focus-in-about'>projects</span>
             </div>
         </nav>
-        <main className='about-secondary-container project-secondary-container animate-in-up'>
+        <main className='about-secondary-container animate-in-up'>
             <header className='header-about'>
                 <div>
                     <span onClick={() => onClickHandle(1)} className='programming-syntax hover-properties'>function about()<br/>&nbsp;&nbsp;&nbsp;return (</span>
