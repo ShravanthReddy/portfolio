@@ -25,10 +25,16 @@ const projectsData = [
     },
     {
         id: 5,
-        title: "ride share",
-        description: "a web-based carpooling platform for university students",
-        link: "https://github.com/ShravanthReddy/ride-share"
+        title: "carpool application",
+        description: "(In development) a web-based carpooling platform for university students",
+        link: ""
     },
+    {
+        id: 6,
+        title: "personal portfolio site",
+        description: "a website to showcase my skills",
+        link: "https://github.com/ShravanthReddy/portfolio"
+    }
 ]
 
 export default projectsData
