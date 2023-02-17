@@ -3,10 +3,6 @@
   background-color: #DDDBCB;
 }
 
-.project-main-container > .about-nav-bar {
-  /* width: 13%; */
-}
-
 .about-nav-bar > div > .main-nav-projects {
   font-size: 7.5rem;
 }
@@ -22,11 +18,6 @@
 100% {
   transform: translateY(0);
 }
-}
-
-.project-secondary-container {
-  /* margin-left: 13%;
-  width: 87%; */
 }
 
 .projects-container-1 {
@@ -57,7 +48,7 @@
 
 .projects-list-card {
   color: white;
-  font-family: Dubiel;
+  font-family: DubielPlain;
   padding: 1rem 3rem 0.5rem 3rem;
   text-align: left;
 }

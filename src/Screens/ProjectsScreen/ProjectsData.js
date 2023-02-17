@@ -23,12 +23,12 @@ const projectsData = [
         description: "a Telegram bot built with Python and MySql database, allowing users to easily track and manage their expenses.",
         link: "https://github.com/ShravanthReddy/ExpenseTrackerBot"
     },
-    {
-        id: 5,
-        title: "carpool application",
-        description: "(In development) a web-based carpooling platform for university students",
-        link: ""
-    },
+    // {
+    //     id: 5,
+    //     title: "carpool application",
+    //     description: "(In development) a web-based carpooling platform for university students",
+    //     link: ""
+    // },
     {
         id: 6,
         title: "personal portfolio site",

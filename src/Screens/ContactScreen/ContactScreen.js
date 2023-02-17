@@ -43,11 +43,11 @@ function ContactScreen() {
                         <br></br>
                         Email: <a href="mailto:shravanthreddy24@gmail.com">shravanthreddy24@gmail.com </a>
                         <br></br>
-                        Social: <a href="https://www.linkedin.com/in/shravanth-reddy-reddy/">Linkedin </a>
+                        Social: <a href="https://www.linkedin.com/in/shravanth-reddy-reddy/" target="_blank" rel="noreferrer">Linkedin </a>
                         /
-                                <a href='https://github.com/ShravanthReddy'> Github </a>
+                                <a href='https://github.com/ShravanthReddy' target="_blank" rel="noreferrer"> Github </a>
                         /
-                                <a href='https://twitter.com/shrvnth_rdy'> Twitter </a>
+                                <a href='https://twitter.com/shrvnth_rdy' target="_blank" rel="noreferrer"> Twitter </a>
                     </p>
                 </div>               
             </div>
