@@ -40,8 +40,8 @@ function HomeScreen() {
                                 <span className='programming-syntax details-html'>&lt;&nbsp;Description&nbsp;&nbsp;props = &#123;</span>
                             </div>
                             <div>
-                                <h1>Hi. I'm Shravanth Reddy!</h1>
-                                <h3>A Front-end Web and Mobile Application Developer</h3>
+                                <h1>hi. i'm shravanth reddy!</h1>
+                                <h3>a full stack developer</h3>
                             </div>
                             <div>
                                 <span className='programming-syntax'>&#125;&nbsp;&nbsp;/&gt;</span>

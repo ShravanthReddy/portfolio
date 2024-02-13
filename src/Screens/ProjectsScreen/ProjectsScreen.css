@@ -53,6 +53,10 @@
   text-align: left;
 }
 
+.project-secondary-container {
+    height: 100vh;
+}
+
 .projects-list-card > .project-title {
   cursor: pointer;
   max-width: fit-content;
