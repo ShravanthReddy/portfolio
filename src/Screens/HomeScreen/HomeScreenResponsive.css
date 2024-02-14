@@ -5,6 +5,10 @@ and (max-width : 590px) {
         height: 100%;
         flex-direction: column-reverse;
     }
+    
+    h1 {
+        align-items: start;
+    }
 
     .div-secondary-container {
         height:100vh;

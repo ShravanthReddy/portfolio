@@ -29,7 +29,7 @@ function ContactScreen() {
         <main className='about-secondary-container contact-screen-container animate-in-up'>
             <header className='header-about'>
                 <div>
-                    <span onClick={() => onClickHandle(1)} className='programming-syntax hover-properties'>function about()<br/>&nbsp;&nbsp;&nbsp;return (</span>
+                    <span onClick={() => onClickHandle(1)} className='programming-syntax hover-properties'>function about()<br/>&nbsp;&nbsp;&nbsp;return Home(</span>
                 </div>
             </header>
             <div>

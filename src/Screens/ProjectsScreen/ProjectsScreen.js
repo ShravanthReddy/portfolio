@@ -41,7 +41,7 @@ function ProjectsScreen() {
             <div className='about-secondary-container project-secondary-container animate-in-up'>
                 <header className='header-about'>
                     <div>
-                        <span onClick={() => onClickHandle(1)} className='programming-syntax hover-properties'>function about()<br/>&nbsp;&nbsp;&nbsp;return (</span>
+                        <span onClick={() => onClickHandle(1)} className='programming-syntax hover-properties'>function about()<br/>&nbsp;&nbsp;&nbsp;return Home(</span>
                     </div>
                 </header>
                 <div className='projects-container-1'>
